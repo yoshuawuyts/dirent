@@ -1,0 +1,11 @@
+[package]
+name = "dirent"
+description = "Safe bindings to Linux <dirent.h>"
+license = "Apache-2.0"
+version = "0.1.0"
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+
+[dependencies]
+dirent-sys = "0.2.0"
+quicli = "0.2.0"
+arrayref = "0.3.4"
